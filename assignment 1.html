@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .maindiv{
+            background-image: url(india.jpg);
+           
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+           
+        }
+        .maindiv > div{
+            background-color: white;
+            width: 300px;
+            padding: 30px;
+            margin: 50px;
+            text-align: center;
+           border-style: solid;
+           border-radius: 20px;
+           animation:india 30s;
+          animation-duration: infinite;
+          background-image: linear-gradient(rgb(255, 145, 0),green);
+        }
+        @keyframes india{
+            0%{background-color:rgb(255, 123, 0);}
+            100%{background-color: green;}
+                    }
+        h2{
+           background-image:linear-gradient(blue,skyblue);
+           padding: 20px;
+           border-radius:30px;
+           
+        }
+        h1{
+            background-image: linear-gradient(rgb(255, 145, 0),green);
+            counter-reset:white;
+            border-radius: 30px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <div  class="name">
+        <h1>FREEDOM FIGHTERS OF INDIA</h1>
+    <div class="maindiv">
+    
+        <div><img src="gandhijii.jpg" height="300px" width="300px"><h2>GANDHIJI</h2></div></center>
+        <div><img src="gopal.jpg" height="300px" width="300px"><h2>GOPALAKRISHNA GOKULE</h2></div><br>
+        <div><img src="java.jpg"><h2>JAVAHALLALNEHRU</h2></div><br>
+        <div><img src="kasturba.jpg" height="300px" width="300px"><h2>KASTURBA</h2></div><br>
+        <div><img src="kittur.jpg" height="200px"><h2>KITTUR RANI CHENNAMMA</h2></div><br>
+        <div><img src="ambed.jpg" hight="200px" width="300px" ><h2>Dr.BR.AMBEDKER</h2></div><br>
+        <div><img src="sardar.jpg" height="200px"><h2>SARDARVALLAIBHAI PATEL</h2></div><br>
+        <div><img src="saroji.jpg" height="200px"><h2>SAROJINI NAIDU</h2></div><br>
+        <div><img src="bhagat.jpg" height="200px" width="300px"><h2>BHAGAT SING</h2></div><br>
+
+    </div>
+</div>
+    
+</body>
+</html>
